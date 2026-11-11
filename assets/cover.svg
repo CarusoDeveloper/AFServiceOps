@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="AFServiceOps. Field operations, connected. Plan, dispatch, execute, complete.">
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090e13"/><stop offset=".58" stop-color="#14232c"/><stop offset="1" stop-color="#070d11"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#5c8191" stop-opacity=".29"/><stop offset="1" stop-color="#5c8191" stop-opacity="0"/></radialGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#7e9cac" stop-opacity="0"/><stop offset=".55" stop-color="#d1e3e9" stop-opacity=".4"/><stop offset="1" stop-color="#7e9cac" stop-opacity="0"/></linearGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".66" numOctaves="2" seed="23" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer></filter>
+  <clipPath id="canvas"><rect width="1200" height="420"/></clipPath>
+</defs>
+<g clip-path="url(#canvas)">
+  <rect width="1200" height="420" fill="url(#background)"/>
+  <ellipse cx="927" cy="219" rx="540" ry="334" fill="url(#glow)"/>
+  <g fill="none" stroke="#b5ccd6" stroke-width="1">
+    <path d="M58 62 H1142" opacity=".18"/>
+    <path d="M58 348 H1142" opacity=".19"/>
+    <path d="M870 88 V318" opacity=".16"/>
+    <path d="M938 88 V318 M1006 88 V318 M1074 88 V318" opacity=".07"/>
+    <path d="M870 148 H1142 M870 207 H1142 M870 266 H1142" opacity=".07"/>
+  </g>
+  <g fill="none" stroke="url(#beam)" stroke-width="1.3">
+    <path d="M-100 299 C198 208 317 380 553 289 S944 204 1310 299"/>
+    <path d="M-100 309 C198 218 317 390 553 299 S944 214 1310 309"/>
+    <path d="M-100 319 C198 228 317 400 553 309 S944 224 1310 319"/>
+    <path d="M-100 329 C198 238 317 410 553 319 S944 234 1310 329"/>
+    <path d="M-100 339 C198 248 317 420 553 329 S944 244 1310 339"/>
+  </g>
+  <rect width="1200" height="420" filter="url(#grain)" opacity=".18"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="59" y="40" fill="#d2e0e9" font-size="13" font-weight="700" letter-spacing="3.3">PRODUCT ENGINEERING / 001</text>
+    <text x="1142" y="40" fill="#8fa8b7" font-size="11" text-anchor="end" letter-spacing="2.3">FIELD SERVICE OPERATIONS</text>
+    <text x="51" y="178" fill="#f0f5f7" font-size="98" font-weight="800" letter-spacing="-5">AFServiceOps.</text>
+    <text x="57" y="240" fill="#bed0dc" font-size="27" font-weight="700" letter-spacing="1.5">FIELD OPERATIONS, CONNECTED.</text>
+    <text x="899" y="134" fill="#b4cbd7" font-size="12" letter-spacing="2.4">PLAN</text>
+    <text x="899" y="167" fill="#b4cbd7" font-size="12" letter-spacing="2.4">DISPATCH</text>
+    <text x="899" y="200" fill="#b4cbd7" font-size="12" letter-spacing="2.4">EXECUTE</text>
+    <text x="899" y="233" fill="#b4cbd7" font-size="12" letter-spacing="2.4">COMPLETE</text>
+    <text x="59" y="385" fill="#d6e2e9" font-size="12" letter-spacing="2.2">FROM REQUEST TO RESOLUTION</text>
+    <text x="1142" y="385" fill="#9fb2bf" font-size="11" text-anchor="end" letter-spacing="1.8">DESIGNED FOR THE PEOPLE DOING THE WORK</text>
+  </g>
+</g>
+</svg>
